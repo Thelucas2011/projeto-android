@@ -1,0 +1,22 @@
+@charset "UTF-8";
+header {background-image:linear-gradient(to top,#1A5C38,#206F42,#24814D,#2A9559,#3BD681,transparent);color:white;padding-right:10px;padding-left:10px;}
+main{background-color:white;min-width:300px;max-width:1000px;margin:auto;padding-left:20px;padding-right:20px;border-radius:10px;}
+body{background-color: #84E1AD;}	
+main p{text-align:justify;margin:15px 0px;text-indent:30px;line-height:2em;font-size:1em;}
+nav>a{color:white;padding-left:10px;padding-right:10px;text-decoration:none;font-weight:bolder;}
+nav>a:hover{background-color:red;color:yellow;transition-duration:1s;}
+a{color:#22F1F6;text-decoration:none;font-weight:bold;}
+main a:hover{text-decoration:underline;background-color:yellow;}
+img{width:100%}
+.video{background-color:green;margin:0px -20px 30px -20px;padding:20px;padding-bottom:59%;position:relative;}
+.video>iframe{position:absolute;top:0%;left:0%;width:100%;height:100%;}
+footer{background-color:green;color:white;}
+footer>p{text-align:center;}
+@font-face{font-family:'fonte-lucas';
+src:url('idroid.otf')format(OpenType)}
+aside{background-color:#C5EBD6;max-width:500px,min-width:300px;margin:auto;border-radius:10px;box-shadow:3px 3px 8px black;}
+ul {list-style-position:inside;columns:2;list-style-type:'\2714\00A0';}
+#aprender{background-color:green;color:white;border-radius:10px 10px 0px 0px;margin:auto;padding:10px;font-size:1.5em;}
+main img.pequena{display:block;margin:auto;max-width:350px;}
+p{padding-right:10px;}
+a.externo:after{content:'\1F517';}
